@@ -38,7 +38,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Home Health', 'Physical Therapy', 'Occupational Therapy', 'Medication Management'],
     counties: ['Nueces', 'San Patricio', 'Aransas', 'Kleberg', 'Bee', 'Jim Wells'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Aetna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Medicaid', 'Aetna', 'Humana PPO']
   },
   {
     id: '2',
@@ -50,7 +50,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Home Health', 'Hospice Care', 'IV Therapy', 'Cardiac Care', 'Pulmonary Care'],
     counties: ['Nueces', 'San Patricio', 'Aransas', 'Kleberg', 'Bee', 'Live Oak', 'Refugio', 'Goliad'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Aetna', 'Cigna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Medicaid', 'Aetna', 'Cigna', 'Humana PPO']
   },
   {
     id: '3',
@@ -62,7 +62,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Home Health', 'Physical Therapy', 'Diabetic Management', 'Diagnosis Education'],
     counties: ['Nueces', 'San Patricio', 'Bee', 'Victoria', 'Calhoun', 'Refugio'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Blue Cross Blue Shield']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Medicaid', 'Blue Cross Blue Shield', 'Humana PPO']
   },
   {
     id: '4',
@@ -74,7 +74,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Home Health', 'Physical Therapy', 'Occupational Therapy', 'Cardiac Care'],
     counties: ['Nueces', 'San Patricio', 'Aransas', 'Kenedy', 'Kleberg', 'Jim Wells', 'Duval'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'United Healthcare']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'United Healthcare', 'Humana PPO']
   },
   {
     id: '5',
@@ -86,7 +86,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Hospice Care', 'Medication Management', 'IV Therapy', 'Pulmonary Care'],
     counties: ['Kleberg', 'Nueces', 'Jim Wells', 'Brooks', 'Kenedy', 'Duval', 'McMullen'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Blue Cross Blue Shield', 'Aetna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Blue Cross Blue Shield', 'Aetna', 'Humana PPO']
   },
   {
     id: '6',
@@ -98,7 +98,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Hospice Care', 'Medication Management', 'Diagnosis Education'],
     counties: ['Nueces', 'San Patricio', 'Aransas', 'Bee', 'Live Oak', 'McMullen', 'Atacosa'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Cigna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Medicaid', 'Cigna', 'Humana PPO']
   },
   {
     id: '7',
@@ -110,7 +110,7 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Provider Service', 'Physical Therapy', 'Occupational Therapy', 'Cardiac Care', 'Diabetic Management'],
     counties: ['Nueces', 'Bexar', 'Wilson', 'Guadalupe', 'Comal', 'Kendall', 'Bandera'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Blue Cross Blue Shield', 'United Healthcare', 'Aetna', 'Cigna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Blue Cross Blue Shield', 'United Healthcare', 'Aetna', 'Cigna', 'Humana PPO']
   },
   {
     id: '8',
@@ -122,6 +122,6 @@ export const agencies: Agency[] = [
     featured: true,
     serviceTypes: ['Provider Service', 'IV Therapy', 'Cardiac Care', 'Pulmonary Care', 'Diagnosis Education'],
     counties: ['Nueces', 'San Patricio', 'Medina', 'Guadalupe', 'Comal', 'Kendall'],
-    insuranceAccepted: ['Medicare', 'Medicaid', 'Blue Cross Blue Shield', 'United Healthcare', 'Aetna', 'Cigna']
+    insuranceAccepted: ['Traditional Medicare', 'Aetna Medicare', 'Blue Cross Blue Shield', 'United Healthcare', 'Aetna', 'Cigna', 'Humana PPO']
   }
 ];

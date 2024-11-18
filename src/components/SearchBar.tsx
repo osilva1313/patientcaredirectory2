@@ -42,7 +42,17 @@ const counties: County[] = [
   'Wilson'
 ];
 
-const insuranceTypes: Insurance[] = ['Medicare', 'Medicaid', 'United Healthcare', 'Blue Cross Blue Shield', 'Aetna', 'Cigna'];
+const insuranceTypes: Insurance[] = [
+  'Traditional Medicare',
+  'Aetna Medicare',
+  'Medicare',
+  'Medicaid',
+  'United Healthcare',
+  'Blue Cross Blue Shield',
+  'Aetna',
+  'Cigna',
+  'Humana PPO'
+];
 
 interface SearchBarProps {
   onSearch: (filters: SearchFilters) => void;

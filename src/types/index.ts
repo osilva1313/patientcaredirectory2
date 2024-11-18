@@ -36,7 +36,15 @@ export type County =
   | 'Victoria'
   | 'Wilson';
 
-export type Insurance = 'Medicare' | 'Medicaid' | 'United Healthcare' | 'Blue Cross Blue Shield' | 'Aetna' | 'Cigna';
+export type Insurance = 
+  | 'Traditional Medicare'
+  | 'Aetna Medicare'
+  | 'Medicare'
+  | 'Medicaid'
+  | 'United Healthcare'
+  | 'Blue Cross Blue Shield'
+  | 'Aetna'
+  | 'Cigna';
 
 export interface SearchFilters {
   serviceType?: ServiceType;

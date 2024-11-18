@@ -50,7 +50,8 @@ const insuranceTypes: Insurance[] = [
   'United Healthcare',
   'Blue Cross Blue Shield',
   'Aetna',
-  'Cigna'
+  'Cigna',
+  'Humana PPO'
 ];
 
 interface SearchBarProps {

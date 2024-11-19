@@ -1,9 +1,10 @@
 export type ServiceType = 
-  | 'Home Health' 
-  | 'Hospice Care' 
+  | 'Home Health'
+  | 'Hospice Care'
   | 'Provider Service'
   | 'Physical Therapy'
   | 'Occupational Therapy'
+  | 'Speech Therapy'
   | 'IV Therapy'
   | 'Cardiac Care'
   | 'Diabetic Management'
@@ -17,7 +18,7 @@ export type County =
   | 'Bandera'
   | 'Bee'
   | 'Bexar'
-  | 'Books'
+  | 'Brooks'
   | 'Calhoun'
   | 'Comal'
   | 'Duval'
@@ -36,7 +37,23 @@ export type County =
   | 'Victoria'
   | 'Wilson';
 
-export type Insurance = 'Medicare' | 'Medicaid' | 'United Healthcare' | 'Blue Cross Blue Shield' | 'Aetna' | 'Cigna';
+export type Insurance = 
+  | 'Traditional Medicare'
+  | 'Aetna Medicare'
+  | 'Amerigroup'
+  | 'United Healthcare Medicare'
+  | 'BCBS Medicare'
+  | 'Cigna Health Springs'
+  | 'Christus Health Medicare'
+  | 'Humana PPO'
+  | 'Humana Medicare'
+  | 'Wellmed'
+  | 'Medicare'
+  | 'Medicaid'
+  | 'United Healthcare'
+  | 'Blue Cross Blue Shield'
+  | 'Aetna'
+  | 'Cigna';
 
 export interface SearchFilters {
   serviceType?: ServiceType;
@@ -50,18 +67,11 @@ export interface Agency {
   description: string;
   address: string;
   phone: string;
+  fax?: string;
   website: string;
+  logo?: string;
   featured: boolean;
   serviceTypes: ServiceType[];
   counties: County[];
   insuranceAccepted: Insurance[];
-}
-
-export interface PlatinumPartner {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  phone: string;
-  website: string;
 }
